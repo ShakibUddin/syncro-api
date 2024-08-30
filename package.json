@@ -1,0 +1,39 @@
+{
+  "name": "syncro",
+  "version": "1.0.0",
+  "description": "A ToDo application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "migrate": "npx sequelize-cli db:migrate",
+    "undo-migrate": "npx sequelize-cli db:migrate:undo",
+    "seed-all": "npx sequelize-cli db:seed:all",
+    "undo-latest-seed": "npx sequelize-cli db:seed:undo",
+    "undo-all-seed": "npx sequelize-cli db:seed:undo:all",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShakibUddin/syncro-api.git"
+  },
+  "author": "Md Shakib Uddin Bhuiyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShakibUddin/syncro-api/issues"
+  },
+  "homepage": "https://github.com/ShakibUddin/syncro-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "postgres": "^3.4.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
