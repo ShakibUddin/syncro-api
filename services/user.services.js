@@ -11,6 +11,7 @@ module.exports = {
         lastName,
         email: email.toLowerCase(),
         password: encryptedUserPassword,
+        isActive: true,
       });
       delete newUser.password;
       return newUser;
