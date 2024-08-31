@@ -1,0 +1,15 @@
+
+08-31-2024 21:38:21 info: POST http://localhost:3005/register PostmanRuntime/7.41.2 ::1  
+08-31-2024 21:38:21 error: POST http://localhost:3005/register PostmanRuntime/7.41.2 ::1  Error: {"errors":[{"field":"firstName","message":"First name must be at least 3 characters"}]}, Status Code: 422
+08-31-2024 21:38:56 info: POST http://localhost:3005/register PostmanRuntime/7.41.2 ::1  
+08-31-2024 21:38:56 error: POST http://localhost:3005/register PostmanRuntime/7.41.2 ::1  Error: {"errors":[{"field":"email","message":"Invalid email"}]}, Status Code: 422
+08-31-2024 21:39:42 info: POST http://localhost:3005/register PostmanRuntime/7.41.2 ::1  
+08-31-2024 21:39:42 error: POST http://localhost:3005/register PostmanRuntime/7.41.2 ::1  Error: Email already exists, Status Code: 409
+08-31-2024 21:40:12 info: POST http://localhost:3005/register PostmanRuntime/7.41.2 ::1  
+08-31-2024 21:40:13 info: POST http://localhost:3005/register PostmanRuntime/7.41.2 ::1 New user registered successfully 
+08-31-2024 21:41:31 info: Example app listening on port 3005
+08-31-2024 21:41:31 info: Connection to database has been established successfully.
+08-31-2024 21:41:51 info: Example app listening on port 3005
+08-31-2024 21:41:51 info: Connection to database has been established successfully.
+08-31-2024 21:41:56 info: POST http://localhost:3005/register PostmanRuntime/7.41.2 ::1  
+08-31-2024 21:41:56 info: POST http://localhost:3005/register PostmanRuntime/7.41.2 ::1 aaa Swagger registered successfully, Email address is jack10@test.com 
