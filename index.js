@@ -19,7 +19,3 @@ app.listen(process.env.PORT, async () => {
     console.error("Unable to connect to the database:", error);
   }
 });
-
-app.get("/test", (req, res) => {
-  return res.json("hello");
-});
